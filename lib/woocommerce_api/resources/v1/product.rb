@@ -99,7 +99,10 @@ module WoocommerceAPI
       attribute :tax_status         , String  , writer: :private
       attribute :total_sales        , Integer , writer: :private
       attribute :upsell_ids         , Array  , writer: :private
+      attribute :variation          , Boolean , writer: :private
       attribute :virtual            , Boolean  , writer: :private
+
+
 
       has_many :product_reviews, class_name: "ProductReview", resource_uri: '/reviews'
     end
