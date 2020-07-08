@@ -56,6 +56,7 @@ module WoocommerceAPI
       attribute :tax_class         , String  , writer: :private
       attribute :tax_status        , String  , writer: :private
       attribute :virtual           , Boolean , writer: :private
+      attribute :variation         , Boolean , writer: :private
       attribute :visible           , Boolean , writer: :private
     end
   end
